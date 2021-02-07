@@ -1,0 +1,46 @@
+.footer {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  border-top: 2px solid #212140;
+  padding-top: 50px;
+  margin-bottom: 50px; }
+  .footer .footer-titre h2 {
+    font-family: 'Roboto', sans-serif;
+    color: #8484FF;
+    font-size: 230%;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    font-weight: 600; }
+  .footer .footer-reseaux h3 {
+    font-family: 'Roboto', sans-serif;
+    color: #8484FF;
+    font-size: 200%;
+    font-weight: 600;
+    margin-bottom: 20px; }
+  .footer .footer-reseaux img {
+    margin-right: 10px; }
+    .footer .footer-reseaux img:hover {
+      opacity: .5;
+      animation: 2s linear infinite tourne; }
+  .footer .footer-contacts h3 {
+    font-family: 'Roboto', sans-serif;
+    color: #8484FF;
+    font-size: 200%;
+    font-weight: 600;
+    margin-bottom: 20px; }
+  .footer .footer-contacts p {
+    font-family: 'Roboto', sans-serif;
+    color: #727f82;
+    font-size: 120%;
+    font-weight: 600;
+    text-align: justify;
+    margin-bottom: 5px; }
+
+@keyframes tourne {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
+
+/*# sourceMappingURL=footer.css.map */

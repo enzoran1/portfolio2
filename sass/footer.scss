@@ -1,0 +1,66 @@
+@import "../sass/mixin.scss";
+@import "../sass/var.scss";
+
+
+.footer{
+    @include flex-around;
+    text-align: center;
+    border-top: 2px solid $couleur-secondaire-sombre;
+    padding-top: 50px;
+    margin-bottom: 50px;
+    
+
+    .footer-titre{
+
+        h2{
+            @include font-titre;
+
+        }
+    }
+
+    .footer-reseaux{
+
+        h3{
+            @include font-titre-secondaire;
+            margin-bottom: 20px;
+
+        }
+        img{
+            margin-right: 10px;
+
+            &:hover{
+                opacity: .5;
+                animation: 2s linear infinite tourne;
+                
+            }
+
+        }
+    }
+
+    .footer-contacts{
+        h3{
+            @include font-titre-secondaire;
+            margin-bottom: 20px;
+
+        }
+        p{
+            @include font-text;
+            margin-bottom: 5px;
+            
+        
+
+        }
+    }
+}
+
+
+@keyframes tourne{
+    from{
+        transform: rotate(0deg);
+
+    }
+    to{
+        transform: rotate(360deg);
+
+    }
+}

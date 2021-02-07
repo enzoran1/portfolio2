@@ -1,0 +1,279 @@
+* {
+  margin: 0;
+  padding: 0; }
+
+.titre {
+  font-family: 'Roboto', sans-serif;
+  color: #8484FF;
+  font-size: 200%;
+  margin-bottom: 30px;
+  margin-top: 50px;
+  font-weight: 600;
+  text-align: center; }
+  .titre h2 {
+    margin-bottom: 15px; }
+  .titre img {
+    animation: 5s linear infinite tourne; }
+
+@keyframes tourne {
+  from {
+    transform: rotate(0deg); }
+  to {
+    transform: rotate(360deg); } }
+.carte-competences {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+  margin-bottom: 100px; }
+  .carte-competences .carte-body {
+    text-align: center; }
+    .carte-competences .carte-body h3 {
+      margin-bottom: 20px;
+      font-family: 'Roboto', sans-serif;
+      color: #8484FF;
+      font-size: 200%;
+      font-weight: 600; }
+    .carte-competences .carte-body img {
+      margin-right: 15px; }
+    .carte-competences .carte-body p {
+      font-family: 'Roboto', sans-serif;
+      color: #727f82;
+      font-size: 120%;
+      font-weight: 600;
+      text-align: justify;
+      word-break: 300px;
+      width: 400px;
+      margin-top: 15px; }
+
+.carte-outils {
+  text-align: center;
+  margin-bottom: 150px; }
+  .carte-outils h3 {
+    font-family: 'Roboto', sans-serif;
+    color: #8484FF;
+    font-size: 200%;
+    font-weight: 600;
+    margin-bottom: 25px; }
+  .carte-outils img {
+    margin-right: 15px;
+    margin-bottom: 25px; }
+  .carte-outils p {
+    font-family: 'Roboto', sans-serif;
+    color: #727f82;
+    font-size: 120%;
+    font-weight: 600;
+    text-align: justify;
+    margin-bottom: 50px;
+    text-align: center;
+    word-break: 500px;
+    margin-left: 100px;
+    margin-right: 100px; }
+
+.projet {
+  margin-bottom: 100px;
+  background-color: #424280; }
+  .projet .carte-projet-body {
+    display: flex;
+    justify-content: center; }
+    .projet .carte-projet-body .carte-projet1 {
+      background-image: url(projet.jpg);
+      height: 500px;
+      width: 500px; }
+      .projet .carte-projet-body .carte-projet1 .carte-projet-btn {
+        text-align: center;
+        margin-top: 210px; }
+        .projet .carte-projet-body .carte-projet1 .carte-projet-btn p {
+          font-family: 'Roboto', sans-serif;
+          color: white;
+          font-size: 230%;
+          font-weight: 600;
+          margin-bottom: 20px;
+          text-shadow: 3px 3px 3px black; }
+        .projet .carte-projet-body .carte-projet1 .carte-projet-btn li {
+          list-style: none;
+          margin: 10px; }
+          .projet .carte-projet-body .carte-projet1 .carte-projet-btn li a {
+            background-color: #424280;
+            border-radius: 10% / 50%;
+            font-size: 200%;
+            font-family: 'Roboto', sans-serif;
+            text-decoration: none;
+            color: white;
+            font-weight: 600;
+            padding: 10px;
+            text-shadow: 3px 3px 3px black; }
+            .projet .carte-projet-body .carte-projet1 .carte-projet-btn li a:hover {
+              background-color: #8484FF; }
+    .projet .carte-projet-body .carte-projet2 {
+      background-image: url(projet2.jpg);
+      height: 500px;
+      width: 500px; }
+      .projet .carte-projet-body .carte-projet2 .carte-projet-btn {
+        text-align: center;
+        margin-top: 210px; }
+        .projet .carte-projet-body .carte-projet2 .carte-projet-btn p {
+          font-family: 'Roboto', sans-serif;
+          color: white;
+          font-size: 230%;
+          font-weight: 600;
+          margin-bottom: 20px;
+          text-shadow: 3px 3px 3px black; }
+        .projet .carte-projet-body .carte-projet2 .carte-projet-btn li {
+          list-style: none;
+          margin: 10px; }
+          .projet .carte-projet-body .carte-projet2 .carte-projet-btn li a {
+            background-color: #424280;
+            border-radius: 10% / 50%;
+            font-size: 200%;
+            font-family: 'Roboto', sans-serif;
+            text-decoration: none;
+            color: white;
+            font-weight: 600;
+            padding: 10px;
+            text-shadow: 3px 3px 3px black; }
+            .projet .carte-projet-body .carte-projet2 .carte-projet-btn li a:hover {
+              background-color: #8484FF; }
+    .projet .carte-projet-body .carte-projet3 {
+      background-image: url(projet4.jpg);
+      height: 500px;
+      width: 500px; }
+      .projet .carte-projet-body .carte-projet3 .carte-projet-btn {
+        text-align: center;
+        margin-top: 210px; }
+        .projet .carte-projet-body .carte-projet3 .carte-projet-btn p {
+          font-family: 'Roboto', sans-serif;
+          color: white;
+          font-size: 230%;
+          font-weight: 600;
+          margin-bottom: 20px;
+          text-shadow: 3px 3px 3px black; }
+        .projet .carte-projet-body .carte-projet3 .carte-projet-btn li {
+          list-style: none;
+          margin: 10px; }
+          .projet .carte-projet-body .carte-projet3 .carte-projet-btn li a {
+            background-color: #424280;
+            border-radius: 10% / 50%;
+            font-size: 200%;
+            font-family: 'Roboto', sans-serif;
+            text-decoration: none;
+            color: white;
+            font-weight: 600;
+            padding: 10px;
+            text-shadow: 3px 3px 3px black; }
+            .projet .carte-projet-body .carte-projet3 .carte-projet-btn li a:hover {
+              background-color: #8484FF; }
+  .projet .carte-projet-body {
+    display: flex;
+    justify-content: center; }
+    .projet .carte-projet-body .carte-projet4 {
+      background-image: url(projet3.jpg);
+      height: 500px;
+      width: 500px; }
+      .projet .carte-projet-body .carte-projet4 .carte-projet-btn {
+        text-align: center;
+        margin-top: 210px; }
+        .projet .carte-projet-body .carte-projet4 .carte-projet-btn p {
+          font-family: 'Roboto', sans-serif;
+          color: white;
+          font-size: 230%;
+          font-weight: 600;
+          margin-bottom: 20px;
+          text-shadow: 3px 3px 3px black; }
+        .projet .carte-projet-body .carte-projet4 .carte-projet-btn li {
+          list-style: none;
+          margin: 10px; }
+          .projet .carte-projet-body .carte-projet4 .carte-projet-btn li a {
+            background-color: #424280;
+            border-radius: 10% / 50%;
+            font-size: 200%;
+            font-family: 'Roboto', sans-serif;
+            text-decoration: none;
+            color: white;
+            font-weight: 600;
+            padding: 10px;
+            text-shadow: 3px 3px 3px black; }
+            .projet .carte-projet-body .carte-projet4 .carte-projet-btn li a:hover {
+              background-color: #8484FF; }
+    .projet .carte-projet-body .carte-projet5 {
+      background-image: url(projet5.jpg);
+      height: 500px;
+      width: 500px; }
+      .projet .carte-projet-body .carte-projet5 .carte-projet-btn {
+        text-align: center;
+        margin-top: 210px; }
+        .projet .carte-projet-body .carte-projet5 .carte-projet-btn p {
+          font-family: 'Roboto', sans-serif;
+          color: white;
+          font-size: 230%;
+          font-weight: 600;
+          margin-bottom: 20px;
+          text-shadow: 3px 3px 3px black; }
+        .projet .carte-projet-body .carte-projet5 .carte-projet-btn li {
+          list-style: none;
+          margin: 10px; }
+          .projet .carte-projet-body .carte-projet5 .carte-projet-btn li a {
+            background-color: #424280;
+            border-radius: 10% / 50%;
+            font-size: 200%;
+            font-family: 'Roboto', sans-serif;
+            text-decoration: none;
+            color: white;
+            font-weight: 600;
+            padding: 10px;
+            text-shadow: 3px 3px 3px black; }
+            .projet .carte-projet-body .carte-projet5 .carte-projet-btn li a:hover {
+              background-color: #8484FF; }
+    .projet .carte-projet-body .carte-projet6 {
+      background-image: url(projet6.jpg);
+      height: 500px;
+      width: 500px; }
+      .projet .carte-projet-body .carte-projet6 .carte-projet-btn {
+        text-align: center;
+        margin-top: 210px; }
+        .projet .carte-projet-body .carte-projet6 .carte-projet-btn p {
+          font-family: 'Roboto', sans-serif;
+          color: white;
+          font-size: 230%;
+          font-weight: 600;
+          margin-bottom: 20px;
+          text-shadow: 3px 3px 3px black; }
+        .projet .carte-projet-body .carte-projet6 .carte-projet-btn li {
+          list-style: none;
+          margin: 10px; }
+          .projet .carte-projet-body .carte-projet6 .carte-projet-btn li a {
+            background-color: #424280;
+            border-radius: 10% / 50%;
+            font-size: 200%;
+            font-family: 'Roboto', sans-serif;
+            text-decoration: none;
+            color: white;
+            font-weight: 600;
+            padding: 10px;
+            text-shadow: 3px 3px 3px black; }
+            .projet .carte-projet-body .carte-projet6 .carte-projet-btn li a:hover {
+              background-color: #8484FF; }
+
+.general-a-propos {
+  display: flex;
+  justify-content: space-around; }
+  .general-a-propos .a-propos-carte {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px; }
+    .general-a-propos .a-propos-carte h3 {
+      margin-bottom: 20px;
+      font-family: 'Roboto', sans-serif;
+      color: #8484FF;
+      font-size: 200%;
+      font-weight: 600; }
+    .general-a-propos .a-propos-carte img {
+      margin-bottom: 20px; }
+    .general-a-propos .a-propos-carte p {
+      font-family: 'Roboto', sans-serif;
+      color: #727f82;
+      font-size: 120%;
+      font-weight: 600;
+      text-align: justify;
+      width: 400px; }
+
+/*# sourceMappingURL=style.css.map */

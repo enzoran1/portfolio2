@@ -1,0 +1,149 @@
+@import "../sass/mixin.scss";
+@import "../sass/var.scss";
+
+
+.header{
+    @include flex-between;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    position: -webkit-sticky;
+    position: sticky;
+    background-color: white;
+    top: 0px;
+    opacity: 1;
+
+
+    .header-navbar{
+        margin-left: 10%;
+        
+       
+
+        ul{
+            @include flex;
+            
+
+            li{
+                margin-right: 15px;
+                list-style: none;
+                &:hover{
+                
+                    transform: rotate(8deg);
+                    
+                }
+
+
+                a{
+                text-decoration: none;
+                @include font;
+                color: $couleur-principal;
+                font-size: 150%;
+                font-weight: 600;
+
+                &:hover{
+                    background-color:$couleur-principal;
+                    opacity: .5;
+                    color:white;
+                    border-radius: 10% / 50%;
+                }
+
+                padding: 10px;
+
+
+
+                }
+            }
+        }
+
+    }
+}
+
+
+.header{
+
+    .header-btn{
+        margin-right: 10%;
+
+        
+        
+
+        
+        }
+
+        li{
+            list-style: none;
+
+            &:hover{
+            transform: rotate(8deg);
+            
+            
+            }
+
+            a{
+                text-decoration: none;
+                @include font;
+                color: $couleur-principal;
+                font-size: 150%;
+                font-weight: 600;
+                
+            
+
+                &:hover{
+                    background-color:$couleur-principal;
+                    opacity: .5;
+                    color:white;
+                    border-radius: 10% / 50%;
+                }
+
+                padding: 10px;
+
+                
+                    
+                    
+                
+
+
+            }
+        }
+    }
+
+
+
+
+.ban{
+    @include ban;
+    @include flex-between;
+    background: $couleur-secondaire;
+
+    
+
+    .ban-titre{
+        margin-left: 200px;
+        padding-top: 200px;
+    
+        h1{
+            @include font;
+            font-size: 350%;
+            color: white;
+            margin-bottom: 15px
+
+        }
+
+        p{
+            @include font;
+            font-size: 300%;
+            color: white;
+
+        }
+    }
+
+    img{
+        height: 496px;
+        
+        margin-right: 200px;
+        background-color: $couleur-principal;
+        opacity: .6;
+        
+
+
+    }
+}

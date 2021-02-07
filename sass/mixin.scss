@@ -1,0 +1,106 @@
+@import "../sass/var.scss";
+
+
+@mixin ban {
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    background-position: center center;
+
+
+
+    
+}
+
+
+
+@mixin font {
+    font-family: 'Roboto', sans-serif;
+    
+    
+    
+}
+
+@mixin flex-between {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+@mixin flex {
+    display: flex;
+    
+}
+
+@mixin flex-around {
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+
+@mixin font-titre {
+    font-family: 'Roboto', sans-serif;
+    color:$couleur-principal;
+    font-size: 230%;
+    margin-bottom: 30px;
+    margin-top: 50px;
+    font-weight: 600;
+
+
+    
+}
+
+@mixin font-titre-secondaire {
+
+    font-family: 'Roboto', sans-serif;
+    color:$couleur-principal;
+    font-size: 200%;
+    font-weight: 600;
+
+    
+}
+
+@mixin font-text {
+
+    font-family: 'Roboto', sans-serif;
+    color:$couleur-text;
+    font-size: 120%;
+    font-weight: 600;
+    text-align: justify;
+
+
+    
+}
+
+@mixin font-text-projet {
+    font-family: 'Roboto', sans-serif;
+    color:white;
+    font-size: 230%;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-shadow: 3px 3px 3px black;
+
+
+    
+}
+
+@mixin projet-btn {
+    background-color: $couleur-secondaire;
+    border-radius: 10% / 50%;
+    font-size: 200%;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    padding: 10px;
+    text-shadow: 3px 3px 3px black;
+    
+    
+    
+
+    
+}
+
+
